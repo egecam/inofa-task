@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// userdata collection icin gerekli schema
 const userSchema = new mongoose.Schema({
   name: String,
   surname: String,
@@ -7,6 +8,7 @@ const userSchema = new mongoose.Schema({
   password: String,
 });
 
+// schema ile user modeli
 const User = mongoose.model("User", userSchema);
 
 module.exports = User;
