@@ -6,5 +6,5 @@ uygulamanın giriş noktası
 
 mongoose ile kullanıcı modeli
 
-### views/home.html
+### views/home.html
 register formunun olduğu anasayfa
